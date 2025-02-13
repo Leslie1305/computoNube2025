@@ -136,14 +136,7 @@ db.fabricantes.insertOne(
 | Unidades | 20 |
 | Fabricantes | fab1, fab2, fab5 |
 
-| Codigo   | Valor   |
-|-------------|-------------|
-| Cod_Producto | 4 |
-| Nombre | Arandela |
-| Precio | 1 |
-| Unidades | 500 |
-| Fabricantes | fab2, fab3, fab4 |
-
+```json
 db.productos.insertOne(
     {
         cod_producto : 3,
@@ -155,6 +148,18 @@ db.productos.insertOne(
         ]
     }
 )
+```
+
+| Codigo   | Valor   |
+|-------------|-------------|
+| Cod_Producto | 4 |
+| Nombre | Arandela |
+| Precio | 1 |
+| Unidades | 500 |
+| Fabricantes | fab2, fab3, fab4 |
+
+
+```json
 db.productos.insertOne(
     {
         cod_producto : 4,
@@ -167,3 +172,5 @@ db.productos.insertOne(
 
     }
 )
+```
+
