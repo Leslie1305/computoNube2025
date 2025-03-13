@@ -177,18 +177,3 @@ db.ciudades.find({
 })
 ```
 
-```json
-
-```
-
-```json
-
-```
-
-```json
-
-```
-
-```json
-
-```
