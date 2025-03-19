@@ -92,12 +92,22 @@ db.empleados.find({empleados:/^R/})
 db.empleados.find({region: {$regex: /V/, $options:"i"}}) 
 ```
 
-9. Visualizar los apellidos de los empleados ordenados por el propio apellido
+9. Visualizar los apellidos de los empleados ordenador por el propio apellido.
 
 ```json
-
-```
+ db.empleados.find({},{_id:0,nombre:0,correo:0,direccion:0,region:0,pais:0,empresa:0,ventas:0,salario:0,departamentos:0}).sort({apellidos:-1})
+ ```
 
 10. Indicar el numero de empleados que trabajan en Google
 
-11. Borrar la coleccion empleados y la base de datos.
+```json
+ db.empleados.find({empresa:"Google"}).size()
+``` 
+
+11. Borrar la coleccion empleados y la base de datos
+
+```json
+ db.empleados.drop()
+
+ db.dropDatabase()
+ ``` 
