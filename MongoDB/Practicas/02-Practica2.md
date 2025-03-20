@@ -11,8 +11,7 @@
   comando:
    mongoimport --db curso --collection empleados --file empleados.json --port 2718(cambia el puerto)
 
-
-   2. Utilizar la base de datos Curso
+2. Utilizar la base de datos Curso
 
 ```json
 use curso

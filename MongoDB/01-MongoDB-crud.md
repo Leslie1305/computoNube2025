@@ -90,6 +90,7 @@ db.alumnos.find({_id:3})
   }
 ]
 ```
+
 ```json
 dbejemplo> db.alumnos.insertMany(
 [
@@ -145,6 +146,7 @@ dbejemplo> db.alumnos.insertMany(
     ``` 
 
     . Verificar que la base de datos no existe 
+
     ``` json
     show dbs / show databases 
     ``` 
@@ -186,7 +188,7 @@ db.libros.find({})
 
 [Operadores de comparacion](https://www.mongodb.com/docs/manual/reference/operator/query/)
 
-![Operadores relacionales](./img/Operadores%20Relacionales.png)
+[Operadores relacionales](./img/Operadores%20Relacionales.png)
 
 1. Mostar todos los documentos donde el precio sea mayor a 25
 
@@ -730,4 +732,3 @@ db.dropDatabase()
 ```
 
 mongosh "mongodb+srv://cluster0.epd6m.mongodb.net/" --apiVersion 1 --username leslie_neri
-

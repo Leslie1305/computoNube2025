@@ -176,4 +176,3 @@ db.ciudades.find({
     {_id:0, "consejeros.nombre":1,"consejeros.edad":1
 })
 ```
-

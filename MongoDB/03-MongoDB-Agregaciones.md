@@ -323,13 +323,6 @@ db.libros.aggregate(
       {
         db: "sample_airbnb",
         coll: "media_propiedades"
-        /*
-    timeseries: {
-      timeField: 'field',
-      bucketMaxSpanSeconds: 'number',
-      granularity: 'granularity'
-    }
-    */
       }
   }
 ]
@@ -458,32 +451,4 @@ db["Ganancias_libros"].find(
 {"Total de Ganancias":{$lte:240}},
 {titulo:1, "Total de Ganancias":1}).sort(
 {titulo:-1})
-```
-
-```json
-
-```
-
-```json
-
-```
-
-```json
-
-```
-
-```json
-
-```
-
-```json
-
-```
-
-```json
-
-```
-
-```json
-
 ```
